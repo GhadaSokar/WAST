@@ -202,7 +202,7 @@ def main():
             train(args, model, device, train_loader, optimizer, epoch, FS_core)
             if epoch == 1 or epoch==10 or epoch==args.eval_epoch: # if True to log at each epoch 
                 print("Epoch = {} , Evaluating feature selection".format(str(epoch)))
-                train_X, train_y, test_X, test_y = get_data(args)
+                train_X, train_y, test_X, test_y, _ = get_data(args)
                 for ki in range(len(ks)):
                     ## evaluate classification accuracy
                     _, SVCacc = evaluate_fs(args, ks[ki], model, device, test_loader, FS_core.mask, FS_core.layers_importance['0'], train_X, train_y, test_X, test_y)
