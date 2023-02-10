@@ -1,6 +1,6 @@
 # Where to Pay Attention in Sparse Training for Feature Selection?
 
-[NeurIPS2022] Where to Pay Attention in Sparse Training for Feature Selection? by Ghada Sokar, Zahra Atashgahi, Mykola Pechenizkiy, and Decebal Constantin Mocanu.
+[NeurIPS2022] [Where to Pay Attention in Sparse Training for Feature Selection?](https://openreview.net/pdf?id=xWvI9z37Xd) by Ghada Sokar, Zahra Atashgahi, Mykola Pechenizkiy, and Decebal Constantin Mocanu.
 
 # Abstract
 
